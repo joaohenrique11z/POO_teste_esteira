@@ -10,7 +10,7 @@ jobs:
   security:
     uses: joaohenrique11z/teste_esteira/.github/workflows/pipeline.yml@v1
     with:
-      project_name: 'meu-projeto'          # Nome usado no DefectDojo
+      project_name: 'teste-poo'          # Nome usado no DefectDojo
       stack_type: 'java'                    # Opções: node, dotnet, python, java, cpp, go, rust
       run_dast: false                        # true = executa OWASP ZAP
       #dast_target_url: 'https://staging.meu-projeto.com'  # Obrigatório se run_dast: true
